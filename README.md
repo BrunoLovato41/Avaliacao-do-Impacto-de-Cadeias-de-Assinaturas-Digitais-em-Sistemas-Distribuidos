@@ -1,7 +1,7 @@
 # Avaliacao do Impacto de Cadeias de Assinaturas Digitais em Sistemas Distribuidos
 Estudo que busca avaliar o impacto de cadeias de assinaturas digitais em sistemas distribuídos. Estudo feito nas linguagens C++, Go e Python com os algoritmos Ed25519 e RSA-2048. 
 
-Este repositório contém os códigos fonte e instruções para reprodução dos experimentos descritos no artigo "Avaliação Experimental do Impacto de Cadeias de Assinaturas Digitais em Sistemas Distribuídos" (WTF 2026). Os benchmarks avaliam o custo computacional e o crescimento estrutural de cadeias de assinatura digital, considerando diferentes algoritmos, tamanhos de payload, número de processos e mecanismos de confidencialidade.
+Este repositório contém os códigos fonte e os resultados dos experimentos descritos no artigo "Avaliação Experimental do Impacto de Cadeias de Assinaturas Digitais em Sistemas Distribuídos" (WTF 2026). Os benchmarks avaliam o custo computacional e o crescimento estrutural de cadeias de assinatura digital, considerando diferentes algoritmos, tamanhos de payload, número de processos e mecanismos de confidencialidade.
 
 Configuração Experimental  
 Algoritmos de assinatura: RSA‑2048‑PSS, Ed25519.  
