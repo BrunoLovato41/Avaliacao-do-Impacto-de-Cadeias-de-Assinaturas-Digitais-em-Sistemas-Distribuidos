@@ -13,11 +13,11 @@ Intervalo de confiança: 95% (z = 1,96).
 
 
 O CSV gerado contém as seguintes colunas  
-sig_algo: Algoritmo de assinatura (RSA ou Ed25519)  
-conf_algo: Mecanismo de confidencialidade (None, AES-GCM, ChaCha20-Poly1305)  
-payload_size_bytes: Tamanho do payload original em bytes  
-num_processes: Número de processos na cadeia (1 a 8)  
-process_idx: Sempre -1 (indica medição da cadeia completa)  
-verify_mean_ns ... decrypt_ci95_hi_ns: Estatísticas (média, desvio, IC 95%) dos tempos de cada operação em nanossegundos  
-msg_size_bytes: Tamanho total da mensagem transmitida (inclui assinaturas, nonce, tag)  
-throughput_mean_msg_s …: Estatísticas do throughput (mensagens/segundo)  
+sig_algo: Algoritmo de assinatura (RSA ou Ed25519).  
+conf_algo: Mecanismo de confidencialidade (None, AES-GCM, ChaCha20-Poly1305).  
+payload_size_bytes: Tamanho do payload original em bytes.  
+num_processes: Número de processos na cadeia (1 a 8).  
+process_idx: Sempre -1 (indica medição da cadeia completa).  
+verify_mean_ns ... decrypt_ci95_hi_ns: Estatísticas (média, desvio, IC 95%) dos tempos de cada operação em nanossegundos.  
+msg_size_bytes: Tamanho total da mensagem transmitida (inclui assinaturas, nonce, tag).  
+throughput_mean_msg_s …: Estatísticas do throughput (mensagens/segundo).  
