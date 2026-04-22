@@ -6,11 +6,17 @@ Este repositório contém os códigos fonte e instruções para reprodução dos
 
 Configuração Experimental
 Algoritmos de assinatura: RSA‑2048‑PSS, Ed25519.
+
 Confidencialidade: Nenhum, AES‑256‑GCM, ChaCha20‑Poly1305.
+
 Tamanho do payload: 8, 16, 32, 64, 128, 256, 512, 1024 bytes.
+
 Número de processos: 1 a 8.
+
 Repetições por cenário: 30.
+
 Intervalo de confiança: 95% (z = 1,96).
+
 
 
 O CSV gerado contém as seguintes colunas
